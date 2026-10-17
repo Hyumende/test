@@ -1,0 +1,13 @@
+package data02;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Ball {
+        private String name;
+        private int num;
+
+}
